@@ -1,6 +1,7 @@
 ## 🎨 Sample Theme
 
-Sample theme for Graviton. It's basically a port from Dark theme.
+Sample theme for Graviton.
+Ported from the Night theme.
 
 ## 🕹 Developing
 This theme has been tested in Graviton v2.0.88.
