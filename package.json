@@ -168,8 +168,8 @@
 			}
 		},
 		"radio": {
-			"Background": {
-				"Hovering": "rgb(60,60,60)"
+			"Hovering": {
+				"Background": "rgb(60,60,60)"
 			},
 			"Circle": {
 				"Background": "#222222",
