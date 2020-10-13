@@ -4,7 +4,7 @@
 	"author": "A cool human",
 	"version": "1.0.0",
 	"description": "Sample theme for Graviton Editor.",
-	"textTheme":"night",
+	"textTheme":"arctic",
 	"type":"theme",
 	"colorsScheme": {
 		"terminal": {
