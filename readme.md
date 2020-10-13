@@ -1,10 +1,10 @@
 ## 🎨 Sample Theme
 
-Sample theme for Graviton.
-Ported from the Night theme.
+Sample theme for Graviton Editor.
+Ported from the Arctic theme.
 
 ## 🕹 Developing
-This theme has been tested in Graviton v2.0.99
+This theme has been tested in Graviton v2.1.1
 
 Clone the repo to the desired .graviton2/plugins:
 ```shell
