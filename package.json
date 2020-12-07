@@ -11,7 +11,25 @@
 			"Background": "white",
 			"Foreground": "black",
 			"Selection": "rgb(180,180,180,0.6)",
-			"Cursor": "black"
+			"Cursor": "black",
+			"CursorAccent": "black",
+			"Black": "",
+			"Red": "",
+			"Green": "",
+			"Yellow": "",
+			"Blue": "",
+			"Magenta": "",
+			"Cyan": "",
+			"White": "",
+			"BrightGreen": "",
+			"BrightYellow": "",
+			"BrightBlue": "",
+			"BrightMagenta": "",
+			"BrightCyan": "",
+			"BrightWhite": ""
+		},
+		"select": {
+			"Background": "rgb(150,150,150,0.30)"
 		},
 		"accent": {
 			"Color": "#0066FF"
@@ -100,6 +118,7 @@
 				"Background": "white"
 			},
 			"Hovering": {
+				"Background": "rgb(230,230,230)",
 				"While": {
 					"Dragging": {
 						"Background": "rgb(250,250,250)"
@@ -121,6 +140,9 @@
 		},
 		"sidemenu": {
 			"Background": "rgb(238,238,238)",
+			"Section": {
+				"Background": "rgba(0,0,0,0.05)"
+			},
 			"Button": {
 				"Background": "transparent",
 				"Hovering": {
@@ -136,6 +158,19 @@
 				"Background": "white",
 				"Text": "black",
 				"Border": "#CFCFCF"
+			}
+		},
+		"topmenu": {
+			"Button": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "rgb(212,212,212)"
+				},
+				"Active": {
+					"Background": "#0066FF",
+					"Text": "white"
+				},
+				"Text": "black"
 			}
 		},
 		"explorer": {
@@ -163,6 +198,14 @@
 					},
 					"Indicator": {
 						"Text": "white"
+					},
+					"Created": {
+						"Text": "rgb(199, 69, 0)",
+						"Indicator": "rgb(199, 69, 0)"
+					},
+					"Renamed": {
+						"Text": "rgb(0, 54, 225)",
+						"Indicator": "rgb(0, 54, 225)"
 					}
 				}
 			}
@@ -172,6 +215,7 @@
 		},
 		"button": {
 			"Background": "rgb(238,238,238)",
+			"Text": "black",
 			"Important": {
 				"Background": "#0066FF",
 				"Text": "white"
@@ -179,13 +223,13 @@
 		},
 		"radio": {
 			"Hovering": {
-				"Background": "#EFEFEF"
+				"Background": "rgb(212,212,212)"
 			},
 			"Circle": {
 				"Background": "white",
 				"Border": "#CFCFCF",
 				"Hovering": {
-					"Border": "#5D9DFC"
+					"Border": "rgb(180,180,180)"
 				}
 			}
 		},
@@ -290,6 +334,15 @@
 				}
 			}
 		},
+		"slider": {
+			"Background": "rgba(220,220,220,0.3)",
+			"Thumb": {
+				"Background": "#0066FF"
+			},
+			"Filled": {
+				"Background": "#0066FF"
+			}
+		},
 		"loader": {
 			"Background": "black"
 		},
@@ -312,7 +365,11 @@
 					"Background": "rgb(210,210,210)"
 				}
 			},
-			"Background": "white"
+			"Background": "white",
+			"Decorator": {
+				"Color": "white",
+				"Background": "#0066FF"
+			}
 		}
 	}
 }
